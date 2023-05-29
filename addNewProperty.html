@@ -599,10 +599,24 @@
                                                                                     <button id="add_des_detailed_document" class="btn btn-primary">Add more file</button> 
                                                                                     <button id="remove_des_detailed_document" class="btn btn-warning">Remove last file</button>
                                                                                 </th>
+                                                                                <th> নথি / Document</th>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>
-                                                                                    <input type="file" class="form-control form-control-lg" id="present_pro_owner" placeholder="" required>
+                                                                                    <div class="form-group ">
+                                                                                        <label for="city_or_town" class="col-form-label ">সিলেক্ট নথির নাম</label>
+                                                                                        <select class="form-control" id="city_or_town" >
+                                                                                            <option value="">--সিলেক্ট--</option>
+                                                                                            <option>জমির খাজনা আদায়ের রসিদ</option>
+                                                                                            <option>জমির বায়না নামা</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group">
+                                                                                        <label for="exampleInputFile">নথি আপলোড</label>
+                                                                                        <input type="file" class="form-control form-control-lg" id="exampleInputFile" aria-describedby="fileHelp">    
+                                                                                    </div>
                                                                                 </td>
                                                                             </tr>
                                                                         </tbody>
@@ -672,15 +686,50 @@
                                                                             <tr>
                                                                                 <th>
                                                                                     নথির নাম / Name of the document
-                                                                                    <button id="add_khatiyan_document" class="btn btn-primary">Add more file</button> 
+                                                                                    <button id="add_khatiyan_document" class="btn btn-primary" >Add more file</button> 
                                                                                     <button id="remove_khatiyan_document" class="btn btn-warning">Remove last file</button>
                                                                                 </th>
                                                                             </tr>
+                                                                           <!--  <tr>
+                                                                                <td>
+                                                                                    <div class="form-group ">
+                                                                                        <label for="" class="col-form-label ">সিলেক্ট নথির নাম</label>
+                                                                                        <select class="form-control" id="" >
+                                                                                            <option value="">--সিলেক্ট--</option>
+                                                                                            <option>জমির খাজনা আদায়ের রসিদ</option>
+                                                                                            <option>জমির বায়না নামা</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group">
+                                                                                        <label for="">নথি আপলোড</label>
+                                                                                        <input type="file" class="form-control form-control-lg" id="" aria-describedby="fileHelp">    
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr> -->
                                                                             <tr>
                                                                                 <td>
+                                                                                    <div class="form-group ">
+                                                                                        <label for="" class="col-form-label ">সিলেক্ট নথির নাম</label>
+                                                                                        <select class="form-control" id="" >
+                                                                                            <option value="">--সিলেক্ট--</option>
+                                                                                            <option>জমির খাজনা আদায়ের রসিদ</option>
+                                                                                            <option>জমির বায়না নামা</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <span>নথি আপলোড</span>
                                                                                     <input type="file" class="form-control form-control-lg" id="present_pro_owner" placeholder="" required>
                                                                                 </td>
                                                                             </tr>
+
+                                                                            <!-- <tr>
+                                                                                <td>
+                                                                                    <input type="file" class="form-control form-control-lg" id="present_pro_owner" placeholder="" required>
+                                                                                </td>
+                                                                            </tr> -->
                                                                         </tbody>
                                                                     </table>
                                                                 </div>
@@ -707,28 +756,28 @@
 
                                                             <div class="form-group row">
                                                                 <div class="col-md-12">
-                                                                    <label for="present_pro_owner" class="col-form-label col-form-label-lg">সি, এস ম্যাপ</label>
+                                                                    <label for="present_pro_owner" class="col-form-label col-form-label-lg">সি, এস ম্যাপ আপলোড</label>
                                                                     <input type="file" class="form-control form-control-lg" id="present_pro_owner" placeholder="" >
                                                                 </div>
                                                             </div>
 
                                                             <div class="form-group row">
                                                                 <div class="col-md-12">
-                                                                    <label for="present_pro_owner" class="col-form-label col-form-label-lg">এস, এ ম্যাপ</label>
+                                                                    <label for="present_pro_owner" class="col-form-label col-form-label-lg">এস, এ ম্যাপ আপলোড</label>
                                                                     <input type="file" class="form-control form-control-lg" id="present_pro_owner" placeholder="" >
                                                                 </div>
                                                             </div>
 
                                                             <div class="form-group row">
                                                                 <div class="col-md-12">
-                                                                    <label for="present_pro_owner" class="col-form-label col-form-label-lg">আর, এস ম্যাপ</label>
+                                                                    <label for="present_pro_owner" class="col-form-label col-form-label-lg">আর, এস ম্যাপ আপলোড</label>
                                                                     <input type="file" class="form-control form-control-lg" id="present_pro_owner" placeholder="" >
                                                                 </div>
                                                             </div>
 
                                                             <div class="form-group row">
                                                                 <div class="col-md-12">
-                                                                    <label for="present_pro_owner" class="col-form-label col-form-label-lg">বি, এস ম্যাপ</label>
+                                                                    <label for="present_pro_owner" class="col-form-label col-form-label-lg">বি, এস ম্যাপ আপলোড</label>
                                                                     <input type="file" class="form-control form-control-lg" id="present_pro_owner" placeholder="" >
                                                                 </div>
                                                             </div>
@@ -853,7 +902,7 @@
         <script type="text/javascript">
             $(document).ready(function() {  
                 $("#add_des_detailed_document").on("click", function() {  
-                    $("#des_detailed_document_file_upload").append("<tr><td><input type='file' class='form-control form-control-lg' id='present_pro_owner' placeholder='' required></td></tr>");  
+                    $("#des_detailed_document_file_upload").append("<tr><td><div class='form-group'><label for='city_or_town' class='col-form-label'>সিলেক্ট নথির নাম</label><select class='form-control' id='city_or_town' ><option value=''>--সিলেক্ট--</option><option>জমির খাজনা আদায়ের রসিদ</option><option>জমির বায়না নামা</option></select></div></td><td><div class='form-group'><label for='exampleInputFile'>নথি আপলোড</label><input type='file' class='form-control form-control-lg' id='exampleInputFile' aria-describedby='fileHelp'></div></td></tr>");  
                 });  
                 $("#remove_des_detailed_document").on("click", function() {  
                     $("#des_detailed_document_file_upload").children().last().remove();  
@@ -866,7 +915,7 @@
         <script type="text/javascript">
             $(document).ready(function() {  
                 $("#add_khatiyan_document").on("click", function() {  
-                    $("#khatiyan_document_file_upload").append("<tr><td><input type='file' class='form-control form-control-lg' id='present_pro_owner' placeholder='' required></td></tr>");  
+                    $("#khatiyan_document_file_upload").append("<tr><td><div class='form-group'><label for='' class='col-form-label'>সিলেক্ট নথির নাম</label><select class='form-control' id='' ><option value=''>--সিলেক্ট--</option><option>জমির খাজনা আদায়ের রসিদ</option><option>জমির বায়না নামা</option></select></div></td><td><div class='form-group'><label for=''>নথি আপলোড</label><input type='file' class='form-control form-control-lg' id='' aria-describedby=''></div></td></tr>");  
                 });  
                 $("#remove_khatiyan_document").on("click", function() {  
                     $("#khatiyan_document_file_upload").children().last().remove();  
