@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 6, 2017, 11:35:42 AM
+    Author     : Use
+*/
+
+
+/*YOUR CUSTOM STYLE STARTED IN HERE*/
+
+
+/* === Add new property */
+#detailed_description,
+#khatiyan_link,
+#map_link,
+#building_link
+{
+    padding: 15px;
+}
+
+.btn_action{
+    width: 93px;
+}
+/* === Add new property X */
